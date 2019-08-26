@@ -1,7 +1,6 @@
 import * as WaveformPlaylist from 'waveform-playlist'
 
-var Player = function (refs) {
-    console.log(refs)
+var Player = function () {
     this.playlist = WaveformPlaylist.init({
         samplesPerPixel: 1400,
         waveHeight: 80,
